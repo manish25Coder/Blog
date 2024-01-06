@@ -1,7 +1,10 @@
-import React from 'react'
+//Components......
+import Posts from "../Components/Posts"
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Posts />
+    </div>
   )
 }
