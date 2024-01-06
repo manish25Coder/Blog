@@ -198,4 +198,15 @@ footer{
     font-weight: 300;
 }
 
+/*.....Error Css.......*/
+.error-center{
+    text-align: center;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
 
