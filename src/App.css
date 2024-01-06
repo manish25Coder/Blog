@@ -213,6 +213,12 @@ footer{
 /*########## HOME CSS ##########*/
 /*Posts Components*/
 
+.authorposts-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+}
+
 .posts-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -265,4 +271,30 @@ footer{
     border: 3px solid var(--color-light);
 }
 
+
+/* ......Postdetail css.....*/
+.postdetail-container{
+    width: 50%;
+    padding: 2rem;
+    background: var(--color-white);
+}
+.postdetail-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+}
+.postdetail-buttons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.postdetail-image{
+    margin: 1rem 0;
+    height: fit-content;
+    max-height: 26rem;
+    overflow: hidden;
+}
+.postdetail-para p{
+    margin-bottom: 1.5rem;
+}
 
