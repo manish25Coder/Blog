@@ -321,3 +321,38 @@ footer{
     text-align: center;
     margin: 4rem auto;
 }
+
+/*....Signup & Signin css.....*/
+form{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+input, select, textarea{
+    width: 100%;
+    padding: .7rem 1.1rem;
+    border-radius: var(--border-radius-1);
+    resize: none;
+}
+.form-message{
+    background: var(--color-danger);
+    color: var(--color-white);
+    font-size: .8rem;
+    padding: .8rem 1.1rem;
+    display: block;
+    margin-bottom: 1.1rem;
+    border-radius: var(--border-radius-1);
+}
+.form-container{
+    width: 50%;
+}
+.form-container h2{
+    margin-bottom: 2rem;
+}
+.form-container small{
+    margin-top: 1.5rem;
+    display: block;
+}
+.form-container small a{
+    color: var(--color-primary);
+}

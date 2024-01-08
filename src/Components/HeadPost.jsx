@@ -21,7 +21,7 @@ export default function HeadPost() {
                         </div>
                         <div className="post-image">
                             <img src={Image} alt='' />
-                            </div>
+                            </div> 
                     </div>
                 );
             })
