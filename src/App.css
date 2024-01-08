@@ -219,10 +219,30 @@ footer{
     gap: 4rem;
 }
 
-.posts-container{
+.posts-container,.categoryPost-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.head-post-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 4rem;
+    padding-top: 3rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.head-post-container .post-image{
+    height: fit-content;
+}
+.head-post-container h1{
+    margin-bottom: 1.7rem;
+    font-size: 2.4rem;
+    line-height: 1.4;
+}
+.head-post-container p{
+    font-size: 17px;
+    line-height: 1.5;
 }
 .post{
     background: var(--color-white);
@@ -297,4 +317,7 @@ footer{
 .postdetail-para p{
     margin-bottom: 1.5rem;
 }
-
+.page-title{
+    text-align: center;
+    margin: 4rem auto;
+}

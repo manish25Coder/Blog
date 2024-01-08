@@ -1,3 +1,17 @@
+//creating Head posts......
+
+export const headPost = [
+    {
+        id:1,
+        Image: blogImage1,
+        category:'Education',
+        authorOId:2,
+        title:'Some title will be here ',
+        des:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    },
+]
+
+
 //creating Dummy posts......
 
 import blogImage1 from '../../src/assets/1.jpg'
