@@ -71,3 +71,37 @@ export const DummyPosts=[
         des:'LOREM LOREMLOREM LOREM LOREM LOREM LOREM LOREM vLOREM v vLOREMvv LOREM LOREM LOREM LOREM'
     },
 ]
+
+// Dummy Author data......
+import AuthorImage1 from '../../src/assets/a1.jpg'
+import AuthorImage2 from '../../src/assets/a2.jpg'
+import AuthorImage3 from '../../src/assets/a3.jpg'
+import AuthorImage4 from '../../src/assets/a4.jpg'
+ 
+export const DummyAuthor = [
+    {
+        id:1,
+        Image: AuthorImage1,
+        name:'manisha singh',
+        posts:2,
+    },
+    {
+        id:2,
+        Image: AuthorImage2,
+        name:'manjeet singh',
+        posts:1,
+    },
+    {
+        id:3,
+        Image: AuthorImage3,
+        name:'sanjeet singh',
+        posts:6,
+    },
+    {
+        id:4,
+        Image: AuthorImage4,
+        name:'manish singh',
+        posts:4,
+    }
+]
+
