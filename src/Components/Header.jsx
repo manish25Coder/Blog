@@ -14,7 +14,7 @@ export default function Header() {
             </Link>
 
             <ul className="nav-menu">
-                <li><Link to={'/profile'}>Profile</Link></li>
+                <li><Link to={'/profile/id'}>Profile</Link></li>
                 <li><Link to={'/create'}>Create Posts</Link></li>
                 <li><Link to={'/authors'}>Authors</Link></li>
                 <li><Link to={'/logout'}>Logout</Link></li>
