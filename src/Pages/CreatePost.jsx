@@ -37,7 +37,7 @@ export default function CreatePost() {
     <section className='createposts'>
       <div className="container form-container createpost-container">
         <h2> Create Posts </h2>
-        <form action='' className='form createposts-form'>
+        <form action='' className='form '>
           <p className='form-message'>This is the invalid message</p>
           <input type='text' placeholder='Enter your title... ' name='title' value={title} onChange={e=>setTitle(e.target.value)} autoFocus />
           <select name='category' value={category} onChange={e=>setCategory(e.target.value)}>
