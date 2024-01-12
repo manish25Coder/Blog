@@ -323,6 +323,9 @@ footer{
 }
 
 /*....Signup & Signin css.....*/
+.form-container{
+    width: 50%;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -343,11 +346,10 @@ input, select, textarea{
     margin-bottom: 1.1rem;
     border-radius: var(--border-radius-1);
 }
-.form-container{
-    width: 50%;
-}
+
 .form-container h2{
     margin-bottom: 2rem;
+    text-align: center;
 }
 .form-container small{
     margin-top: 1.5rem;
@@ -415,6 +417,10 @@ input, select, textarea{
     text-align: center;
     align-items: center;
 }
+/* .profile-details form{
+    background: #000;
+    width: 100%;
+} */
 .profile-wrapper{
     position: relative;
 }
@@ -486,4 +492,15 @@ input, select, textarea{
 }
 .dashboard-post-action .btn-V:hover{
     background: var(--color-gray-900);
+}
+
+/*Quill css.....*/
+.ql-editor{
+    overflow: scroll;
+    background: var(--color-white);
+    height: 10rem !important;
+}
+/*Createpost css..*/
+.createposts-form{
+    width: 100%;
 }
