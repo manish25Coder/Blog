@@ -35,7 +35,7 @@ export const DummyPosts=[
         Image: blogImage2,
         category:'Education',
         authorOId:3,
-        title:'Some title will be here The phrase "Lorem ipsum" is typically followed by a number that indicates the number of characters or words you want ',
+        title:'Some title will be here The phrase "Lorem ipsum"  ',
         des:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.The phrase "Lorem ipsum" is typically followed by a number that indicates the number of characters or words you want'
     },
     {

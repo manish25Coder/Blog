@@ -15,7 +15,7 @@ export default function UserProfile() {
 
 
 
-  const [profileImage,setProfileImag] = useState('')
+  const [profileImag,setProfileImag] = useState('')
 
   return (
     <section className='profile'>
